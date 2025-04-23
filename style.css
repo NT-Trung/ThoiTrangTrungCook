@@ -1,0 +1,41 @@
+/* Đặt hình nền cho header */
+header {
+    /* background-image: url('image/'); đổi tên theo ảnh bạn vừa tải */
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0;
+    color: rgb(14, 13, 13);
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+  }
+  
+  /* Làm trong nền background của nội dung chính */
+  main, section {
+    background-color: rgba(255, 255, 255, 0.85); /* nền trắng trong suốt */
+    backdrop-filter: blur(5px); /* hiệu ứng mờ phía sau */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    margin-top: 20px;
+  }
+  
+  /* Toàn trang */
+  body {
+    background: url('image/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  /* Link điều hướng */
+  nav a {
+    color: white;
+    margin: 0 10px;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  .bg-sidebar-gradient {
+    background: linear-gradient(to bottom, #E6F0FA, #FFFFFF);
+  }
+  
